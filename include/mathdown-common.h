@@ -1,0 +1,4 @@
+#ifndef MATHDOWN_COMMON_H_
+#define MATHDOWN_COMMON_H_
+
+#endif  // MATHDOWN_COMMON_H_
