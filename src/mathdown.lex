@@ -114,6 +114,27 @@ WORD            [0-9A-Za-z_]
 \\Phi;    return PHI_C;
 \\Psi;   return PSI_C;
 \\Omega;    return OMEGA_C;
+
+=>  return RIGHT_ARROW_STRONG;
+<==  return LEFT_ARROW_STRONG;
+<=>  return DOUBLE_ARROW_STRONG;
+
+<=  return LESS_EQ;
+>=  return GREATER_EQ;
+<   return LESS_THAN;
+>   return GREATER_THAN;
+
+\^  return SUPER_SCRIPT;
+_   return SUB_SCRIPT;
+
+"+" return PLUS_SIGN;
+"-" return MINUS_SIGN;
+"*" return MUL_SIGN;
+"/" return DIV_SIGN;
+
+
+WS+ /* TRIM WS characters */
+
 %{
 %}
 
