@@ -10,7 +10,11 @@
 %option always-interactive
 
 /* MACROs here */
-WS              [ \t\r]
+WS              [ \t\r\f]
+DIGIT           [0-9]
+ALPHA           [A-Za-z]
+ALNUM           [0-9A-Za-z]
+WORD            [0-9A-Za-z_]
 
 /* STATEs here */
 %%
