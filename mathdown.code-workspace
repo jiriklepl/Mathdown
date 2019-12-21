@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.lex": "lex"
+		},
+		"files.eol": "\n",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true
+	}
 }
